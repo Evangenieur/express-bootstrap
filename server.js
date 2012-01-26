@@ -1,6 +1,8 @@
-var setup = require('./lib/setup.js'),
-    port = process.env.PORT || 3000;
+// requires
+var setup = require('./lib/setup.js');
 
+// routes
 require('./lib/routes.js')(setup);
 
-setup.app.listen(port);
+// server
+setup.app.listen(setup.port);
