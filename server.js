@@ -12,7 +12,7 @@ app.configure(function(){
   var public = __dirname + '/public';
   var views = __dirname + '/views';
   
-  app.use(stylus.middleware({ src: public + '/css' }));
+  app.use(stylus.middleware({ src: public }));
   app.use(express.methodOverride());
   app.use(express.bodyParser());
   app.use(express.cookieParser());
