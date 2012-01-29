@@ -1,1 +1,1 @@
-###Express, Mongoose, Jade and Stylus project bootstrap.  
+###Express, Jade and Stylus project bootstrap.  

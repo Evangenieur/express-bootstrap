@@ -1,12 +1,11 @@
 {
   "name": "express-bootstrap",
-  "version": "0.0.2",
-  "description": "Express, Mongoose, Jade and Stylus project bootstrap.",
-  "keywords": ["express", "mongoose", "jade", "stylus", "bootstrap"],
+  "version": "0.0.3",
+  "description": "Express, Jade and Stylus project bootstrap.",
+  "keywords": ["express", "jade", "stylus", "bootstrap"],
   "author": "Bradley Griffiths <bradley.griffiths@gmail.com>",
   "dependencies": {
     "express": "2.5.6",
-    "mongoose": "2.5.0",
     "jade": "0.20.0",
     "stylus": "0.22.6"
   },
