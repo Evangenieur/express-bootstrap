@@ -1,7 +1,15 @@
 extends layout
 
 block title
-  title Express Bootstrap
+  title #{project.name} &gt; #{page.name}
+
+
+block head
+  h1 #{page.name} 
+    small Super Page
 
 block content
-  p Hello China
+  .span10
+    h2 Hello Universe
+  .span4
+    h3 Listed contents

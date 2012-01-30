@@ -5,9 +5,21 @@ html
   head
     block title
     include inc/styles
+    include inc/scripts
 
   body
-    #wrapper
-      block content
+    .topbar
+      .fill
+        .container
+          a(href="#").brand= project.name
+          include inc/menu
+    .container 
+      .content
+        .page-header
+          block head
+        .row
+          block content
+      footer
+        p &copy; #{company.name} #{(new Date).getFullYear()}
+            
     
-    include inc/scripts
