@@ -1,4 +1,4 @@
-###This fork is converted to coffeescript and using this [Twitter bootstrap template](http://twitter.github.com/bootstrap/examples/container-app.html) 
+###This fork use coffeescript client and server side with  [Twitter bootstrap 2 template in reactive design](http://twitter.github.com/bootstrap/examples/starter-template.html)
 
 ###Express, Jade and Stylus project bootstrap.  
 
