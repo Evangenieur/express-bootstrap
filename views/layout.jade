@@ -8,17 +8,21 @@ html
     include inc/scripts
 
   body
-    .topbar
-      .fill
+    div(class="navbar navbar-fixed-top")
+      .navbar-inner
         .container
+          a(class="btn btn-navbar",data-toggle="collapse",data-target=".nav-collapse")
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
           a(href="#").brand= project.name
           include inc/menu
     .container 
-      .content
-        .page-header
-          block head
-        .row
-          block content
+      .hero-unit
+        block head
+      .row
+        block content
+      hr
       footer
         p &copy; #{company.name} #{(new Date).getFullYear()}
             
